@@ -1,0 +1,58 @@
+/* Updated Styles */
+body {
+    background-color: #e0e0e0; /* Light gray background */
+    font-family: 'Poppins', sans-serif; /* Poppins font */
+    margin: 0;
+    padding: 0;
+    background-image: url('static/digital-technology-background-vector-with-hexagon-border-dark-purple-tone_53876-126074 (1).avif');
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color:#6a11cb; /* Slightly darker text color */
+    margin-bottom: 20px;
+    animation: header 2s ease-in-out infinite alternate;
+}
+h2 {
+    font-family: cursive;
+}
+@keyframes header {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(119, 113, 113, 0.7); /* White form background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for better UI */
+}
+
+.button {
+    background: linear-gradient(90deg, #6a11cb, #2575fc); /* Gradient button */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 150px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 50%;
+    transition: transform 0.2s, opacity 0.2s; /* Smooth transitions */
+}
+
+.button:hover {
+    opacity: 0.9; /* Slight fade effect */
+    transform: scale(1.05); /* Enlarge on hover */
+}
+
+
+

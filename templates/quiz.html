@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <style>
+        body{
+            background-image: url('static/digital-technology-background-vector-with-hexagon-border-dark-purple-tone_53876-126074 (1).avif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 100%;
+            height: auto;
+            background-attachment: fixed;  
+        
+        }
+    </style>
+
+    # background-attachment for full image design
+    <h1>Comprehensive Quiz</h1>
+    <form action="/submit_quiz" method="POST">
+        <h2>Python Fundamentals</h2>
+        <ol>
+            <li>What is the correct syntax to output "Hello, World!" in Python?
+                <ul>
+                    <li><input type="radio" name="python_q1" value="a"> echo("Hello, World!")</li>
+                    <li><input type="radio" name="python_q1" value="b"> printf("Hello, World!")</li>
+                    <li><input type="radio" name="python_q1" value="c"> print("Hello, World!")</li>
+                    <li><input type="radio" name="python_q1" value="d"> echo "Hello, World!"</li>
+                </ul>
+            </li>
+            <li>Which of the following is used to create a comment in Python?
+                <ul>
+                    <li><input type="radio" name="python_q2" value="a"> #</li>
+                    <li><input type="radio" name="python_q2" value="b"> //</li>
+                    <li><input type="radio" name="python_q2" value="c"> /* */</li>
+                    <li><input type="radio" name="python_q2" value="d"> --</li>
+                </ul>
+            </li>
+            <li>Which function is used to find the length of a list in Python?
+                <ul>
+                    <li><input type="radio" name="python_q3" value="a"> len()</li>
+                    <li><input type="radio" name="python_q3" value="b"> length()</li>
+                    <li><input type="radio" name="python_q3" value="c"> size()</li>
+                    <li><input type="radio" name="python_q3" value="d"> count()</li>
+                </ul>
+            </li>
+            <li>Which of the following is a mutable data type in Python?
+                <ul>
+                    <li><input type="radio" name="python_q4" value="a"> Tuple</li>
+                    <li><input type="radio" name="python_q4" value="b"> String</li>
+                    <li><input type="radio" name="python_q4" value="c"> List</li>
+                    <li><input type="radio" name="python_q4" value="d"> Integer</li>
+                </ul>
+            </li>
+            <li>Which keyword is used to define a function in Python?
+                <ul>
+                    <li><input type="radio" name="python_q5" value="a"> func</li>
+                    <li><input type="radio" name="python_q5" value="b"> def</li>
+                    <li><input type="radio" name="python_q5" value="c"> function</li>
+                    <li><input type="radio" name="python_q5" value="d"> define</li>
+                </ul>
+            </li>
+            <li>Which of the following is NOT a valid variable name in Python?
+                <ul>
+                    <li><input type="radio" name="python_q6" value="a"> myVar</li>
+                    <li><input type="radio" name="python_q6" value="b"> 2ndVar</li>
+                    <li><input type="radio" name="python_q6" value="c"> my_var</li>
+                    <li><input type="radio" name="python_q6" value="d"> _var</li>
+                </ul>
+            </li>
+            <li>How do you start a while loop in Python?
+                <ul>
+                    <li><input type="radio" name="python_q7" value="a"> while (x > 10)</li>
+                    <li><input type="radio" name="python_q7" value="b"> while x > 10:</li>
+                    <li><input type="radio" name="python_q7" value="c"> while (x < 10):</li>
+                    <li><input type="radio" name="python_q7" value="d"> while: (x > 10)</li>
+                </ul>
+            </li>
+            <li>Which operator is used for exponentiation in Python?
+                <ul>
+                    <li><input type="radio" name="python_q8" value="a"> *</li>
+                    <li><input type="radio" name="python_q8" value="b"> ^</li>
+                    <li><input type="radio" name="python_q8" value="c"> **</li>
+                    <li><input type="radio" name="python_q8" value="d"> **^</li>
+                </ul>
+            </li>
+            <li>Which of the following is a valid way to create a list in Python?
+                <ul>
+                    <li><input type="radio" name="python_q9" value="a"> list = []</li>
+                    <li><input type="radio" name="python_q9" value="b"> list = {}</li>
+                    <li><input type="radio" name="python_q9" value="c"> list = ()</li>
+                    <li><input type="radio" name="python_q9" value="d"> list = //</li>
+                </ul>
+            </li>
+            <li>Which of the following data types are immutable in Python?
+                <ul>
+                    <li><input type="radio" name="python_q10" value="a"> List</li>
+                    <li><input type="radio" name="python_q10" value="b"> Dictionary</li>
+                    <li><input type="radio" name="python_q10" value="c"> String</li>
+                    <li><input type="radio" name="python_q10" value="d"> Set</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h2>Introduction to Computing</h2>
+        <ol>
+            <li>What does CPU stand for?
+                <ul>
+                    <li><input type="radio" name="computing_q1" value="a"> Central Programming Unit</li>
+                    <li><input type="radio" name="computing_q1" value="b"> Central Processing Unit</li>
+                    <li><input type="radio" name="computing_q1" value="c"> Computer Processing Unit</li>
+                    <li><input type="radio" name="computing_q1" value="d"> Control Processing Unit</li>
+                </ul>
+            </li>
+
+            <li>Which of the following is NOT an input device?
+                <ul>
+                    <li><input type="radio" name="computing_q2" value="a"> Keyboard</li>
+                    <li><input type="radio" name="computing_q2" value="b"> Mouse</li>
+                    <li><input type="radio" name="computing_q2" value="c"> Printer</li>
+                    <li><input type="radio" name="computing_q2" value="d"> Scanner</li>
+                </ul>
+            </li>
+            <li>What is the main function of an operating system?
+                <ul>
+                    <li><input type="radio" name="computing_q3" value="a"> To process data</li>
+                    <li><input type="radio" name="computing_q3" value="b"> To control hardware and software resources</li>
+                    <li><input type="radio" name="computing_q3" value="c"> To manage files only</li>
+                    <li><input type="radio" name="computing_q3" value="d"> To provide power to the computer</li>
+                </ul>
+            </li>
+            <li>Which memory is volatile?
+                <ul>
+                    <li><input type="radio" name="computing_q4" value="a"> ROM</li>
+                    <li><input type="radio" name="computing_q4" value="b"> Flash</li>
+                    <li><input type="radio" name="computing_q4" value="c"> RAM</li>
+                    <li><input type="radio" name="computing_q4" value="d"> Hard Disk</li>
+                </ul>
+            </li>
+            <li>What does "www" stand for in a web address?
+                <ul>
+                    <li><input type="radio" name="computing_q5" value="a"> World Wide Web</li>
+                    <li><input type="radio" name="computing_q5" value="b"> World Web Wide</li>
+                    <li><input type="radio" name="computing_q5" value="c"> Web World Wide</li>
+                    <li><input type="radio" name="computing_q5" value="d"> Wide Web World</li>
+                </ul>
+            </li>
+            <li>Which number system is used by computers?
+                <ul>
+                    <li><input type="radio" name="computing_q6" value="a"> Decimal</li>
+                    <li><input type="radio" name="computing_q6" value="b"> Binary</li>
+                    <li><input type="radio" name="computing_q6" value="c"> Octal</li>
+                    <li><input type="radio" name="computing_q6" value="d"> Hexadecimal</li>
+                </ul>
+            </li>
+            <li>What is the smallest unit of data in a computer?
+                <ul>
+                    <li><input type="radio" name="computing_q7" value="a"> Byte</li>
+                    <li><input type="radio" name="computing_q7" value="b"> Kilobyte</li>
+                    <li><input type="radio" name="computing_q7" value="c"> Bit</li>
+                    <li><input type="radio" name="computing_q7" value="d"> Megabyte</li>
+                </ul>
+            </li>
+            <li>Which software is used to browse the internet?
+                <ul>
+                    <li><input type="radio" name="computing_q8" value="a"> Text Editor</li>
+                    <li><input type="radio" name="computing_q8" value="b"> Browser</li>
+                    <li><input type="radio" name="computing_q8" value="c"> Compiler</li>
+                    <li><input type="radio" name="computing_q8" value="d"> Operating System</li>
+                </ul>
+            </li>
+            <li>What is the purpose of cache memory?
+                <ul>
+                    <li><input type="radio" name="computing_q9" value="a"> To store permanent data</li>
+                    <li><input type="radio" name="computing_q9" value="b"> To speed up processing</li>
+                    <li><input type="radio" name="computing_q9" value="c"> To manage files</li>
+                    <li><input type="radio" name="computing_q9" value="d"> To connect to the internet</li>
+                </ul>
+            </li>
+            <li>What does GUI stand for?
+                <ul>
+                    <li><input type="radio" name="computing_q10" value="a"> General User Interface</li>
+                    <li><input type="radio" name="computing_q10" value="b"> Graphical User Interface</li>
+                    <li><input type="radio" name="computing_q10" value="c"> Global User Interface</li>
+                    <li><input type="radio" name="computing_q10" value="d"> Graphic Unit Integration</li>
+                </ul>
+            </li>
+            <!-- Add the rest of the computing questions in the same format -->
+        </ol>
+
+        <h2>Linear Algebra</h2>
+        <ol>
+            <li>What is the rank of a matrix?
+                <ul>
+                    <li><input type="radio" name="linear_q1" value="a"> The number of rows in the matrix</li>
+                    <li><input type="radio" name="linear_q1" value="b"> The number of columns in the matrix</li>
+                    <li><input type="radio" name="linear_q1" value="c"> The maximum number of linearly independent rows or columns</li>
+                    <li><input type="radio" name="linear_q1" value="d"> The determinant of the matrix</li>
+                </ul>
+            </li>
+            <!-- Add the rest of the linear algebra questions in the same format -->
+
+            <li>If  is a square matrix, when is it invertible?
+                <ul>
+                    <li><input type="radio" name="linear_q2" value="a"> When the determinant is zero</li>
+                    <li><input type="radio" name="linear_q2" value="b"> When the determinant is non-zero</li>
+                    <li><input type="radio" name="linear_q2" value="c"> When all rows are equal</li>
+                    <li><input type="radio" name="linear_q2" value="d"> When all elements are zero</li>
+                </ul>
+            </li>
+            <li>What is the dot product of two perpendicular vectors?
+                <ul>
+                    <li><input type="radio" name="linear_q3" value="a"> 1</li>
+                    <li><input type="radio" name="linear_q3" value="b"> 0</li>
+                    <li><input type="radio" name="linear_q3" value="c"> -1</li>
+                    <li><input type="radio" name="linear_q3" value="d"> Equal to their magnitudes</li>
+                </ul>
+            </li>
+            <li>Which of the following is a property of a scalar matrix?
+                <ul>
+                    <li><input type="radio" name="linear_q4" value="a"> All diagonal elements are the same non-zero scalar</li>
+                    <li><input type="radio" name="linear_q4" value="b"> All non-diagonal elements are non-zero</li>
+                    <li><input type="radio" name="linear_q4" value="c"> All elements are different</li>
+                    <li><input type="radio" name="linear_q4" value="d"> Determinant is always zero</li>
+                </ul>
+            </li>
+            <li>What is the eigenvalue of an identity matrix?
+                <ul>
+                    <li><input type="radio" name="linear_q5" value="a"> 0</li>
+                    <li><input type="radio" name="linear_q5" value="b"> 1</li>
+                    <li><input type="radio" name="linear_q5" value="c"> Depends on the size of the matrix</li>
+                    <li><input type="radio" name="linear_q5" value="d"> Undefined</li>
+                </ul>
+            </li>
+            <li>The system of linear equations is consistent if:
+                <ul>
+                    <li><input type="radio" name="linear_q6" value="a"> It has at least one solution</li>
+                    <li><input type="radio" name="linear_q6" value="b"> It has no solutions</li>
+                    <li><input type="radio" name="linear_q6" value="c"> It has infinite solutions only</li>
+                    <li><input type="radio" name="linear_q6" value="d"> It has a unique solution only</li>
+                </ul>
+            </li>
+            <li>What is the determinant of a diagonal matrix?
+                <ul>
+                    <li><input type="radio" name="linear_q7" value="a"> The product of diagonal elements</li>
+                    <li><input type="radio" name="linear_q7" value="b"> The sum of diagonal elements</li>
+                    <li><input type="radio" name="linear_q7" value="c"> Always zero</li>
+                    <li><input type="radio" name="linear_q7" value="d"> Equal to the trace of the matrix</li>
+                </ul>
+            </li>
+            <li>Which operation is NOT allowed on matrices?
+                <ul>
+                    <li><input type="radio" name="linear_q8" value="a"> Addition of matrices of the same size</li>
+                    <li><input type="radio" name="linear_q8" value="b"> Multiplication of matrices of compatible dimensions</li>
+                    <li><input type="radio" name="linear_q8" value="c"> Division of two matrices</li>
+                    <li><input type="radio" name="linear_q8" value="d"> Transpose of a matrix</li>
+                </ul>
+            </li>
+            <li>A vector space must satisfy which property?
+                <ul>
+                    <li><input type="radio" name="linear_q9" value="a"> Closure under addition and scalar multiplication</li>
+                    <li><input type="radio" name="linear_q9" value="b"> Commutative multiplication</li>
+                    <li><input type="radio" name="linear_q9" value="c"> All vectors must have integer entries</li>
+                    <li><input type="radio" name="linear_q9" value="d"> It must be finite-dimensional</li>
+                </ul>
+            </li>
+            <li>What is the trace of a square matrix?
+                <ul>
+                    <li><input type="radio" name="linear_q10" value="a"> The sum of all elements in the matrix</li>
+                    <li><input type="radio" name="linear_q10" value="b"> The sum of eigenvalues</li>
+                    <li><input type="radio" name="linear_q10" value="c"> The sum of diagonal elements</li>
+                    <li><input type="radio" name="linear_q10" value="d"> The determinant of the matrix</li>
+                </ul>
+            </li>
+        </ol>
+
+        <br>
+        <input class="button" type="submit" value="Submit Quiz">
+    </form>
+</body>
+</html>
